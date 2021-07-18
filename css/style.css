@@ -17,7 +17,7 @@ html {
 }
 
 .background-section-one{
-    background-image: url(../assets/images/bg.png);
+    background-image: url("../assets/images/bg.png");
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
@@ -25,10 +25,9 @@ html {
 }
 
 .card-container{
-
     padding: 5px;
     width: 480px;
-    height: 220px;
+    height: 250px;
     position: relative;
     left: 280px;
     background-color: transparent;
@@ -70,7 +69,7 @@ input[type="submit"]{
 }
 
 .button{
-    margin-top: 30px;
+    margin-top: 10px;
     background: green;
     color: white;
     font-weight: 400;
@@ -83,7 +82,7 @@ input[type="submit"]{
 
 
 .background-section-two{
-    background-image: url(../assets/images/bg2.png);
+    background-image: url("../assets/images/bg2.png");
     background-attachment: fixed;
     background-size:cover;
     background-repeat: no-repeat;
@@ -164,13 +163,23 @@ footer{
     .background-section-one{
         background-image: url(../assets/images/bg.png);
         background-attachment:fixed;
-        background-size: 175% 140%;
+        background-size: center;
     }
 
-
-    form{
+    .card-container{
+        margin: 0px auto;
+        padding: 5px;
+        width: 480px;
+        height: 550px;
+        position:unset;        
+        background-color: transparent;
+    }
+    
+   /* form{
         margin: -200px -270px;
-    }
+        overflow-x: hidden;
+        
+    }*/
 
     
     .card{
@@ -241,12 +250,17 @@ footer{
     .background-section-one{
         background-image: url(../assets/images/bg.png);
         background-attachment:fixed;
-        background-size: 175% 140%;
+        background-size: 170% 120%;
     }
 
 
-    form{
-        margin: -200px -270px;
+    .card-container{
+        margin: 0px auto;
+        padding: 5px;
+        width: 480px;
+        height: 650px;
+        position:unset;        
+        background-color: transparent;
     }
 
 
@@ -348,20 +362,19 @@ footer{
     .background-section-one{
         background-image: url(../assets/images/bg.png);
         background-attachment:fixed;
-        background-size: 175% 140%;
+        background-size: 170% 120%;
     }
 
 
-    form{
-        margin: -200px -270px;
+    .card-container{
+        margin: 3px auto;
+        padding: 5px;
+        width: 480px;
+        height: 650px;
+        position:unset;        
+        background-color: transparent;
     }
 
-    form .p{
-        margin-left: 8px;
-        text-align: left;
-        color: #fff
-    }
-    
     
     input{
         margin:3px;

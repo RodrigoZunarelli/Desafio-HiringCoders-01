@@ -269,7 +269,7 @@ footer{
     input{
         
         margin: 1px;
-        width: 400px;
+        width: 360px;
         height: 30px;
         text-align: center;
         border-radius: 12px;
@@ -280,7 +280,7 @@ footer{
     input[type="submit"]{    
         width: 120px;
         height: 30px;
-        margin-left: 165px;
+        margin-left: 175px;
         text-align: center;
         border-radius: 12px;
         background: white;
@@ -290,14 +290,14 @@ footer{
     }
     
     .button{
-        width: 380px;
+        width: 360px;
         margin-top: 5px;
-        margin-left: 10px;
+        margin-left: 15px;
         background: green;
         color: white;
         font-weight: 400;
         font-size: 20px;
-        padding: 5px;
+        padding: 3px;
         border-radius: 8px;
     }
 

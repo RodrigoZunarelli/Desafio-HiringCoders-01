@@ -170,16 +170,11 @@ footer{
         margin: 0px auto;
         padding: 5px;
         width: 480px;
-        height: 550px;
+        height: 650px;
         position:unset;        
         background-color: transparent;
     }
     
-   /* form{
-        margin: -200px -270px;
-        overflow-x: hidden;
-        
-    }*/
 
     
     .card{
@@ -250,7 +245,7 @@ footer{
     .background-section-one{
         background-image: url(../assets/images/bg.png);
         background-attachment:fixed;
-        background-size: 170% 120%;
+        background-size: center;
     }
 
 
@@ -306,6 +301,10 @@ footer{
         border-radius: 8px;
     }
 
+    .background-section-two{
+        background-size: center;
+    }
+    
     .card{
         margin-top: 1px;
         height: 300px;
@@ -362,7 +361,7 @@ footer{
     .background-section-one{
         background-image: url(../assets/images/bg.png);
         background-attachment:fixed;
-        background-size: 170% 120%;
+        background-size: cover;
     }
 
 
@@ -398,7 +397,9 @@ footer{
     
     }
 
-    
+    .background-section-two{
+        background-size: center;
+    }
 
     .card{
         margin-top: 1px;
